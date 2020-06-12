@@ -1,41 +1,41 @@
 [
 {
-	"uri": "https://vcalderon2009.github.io/2020_06_CA_Astro_Data_Science_Workshop/instructions/",
+	"uri": "http://example.org/instructions/",
 	"title": "Instructions",
 	"tags": [],
 	"description": "",
 	"content": "This set of tutorials are written in Python and they act as stand-alone notebooks. There are 2 ways of accessing them.\nUsing Google\u0026rsquo;s Colab The ideal method of accessing these notebooks and resources is through Google Colab. Each notebook will have a badge like this:\n\nJust press on it and it will redirect you to the website dedicated to hosting these notebooks.\nGetting the repository onto your computer The first method of accessing the set of notebooks and resources is by cloning the whole repository into your computer. In that way, you will be able to :\n Install the necessary Python packages Run each notebook on its own and check the results yourself.  For this to work, you will first need to:\n  Clone your repository to specified directory\n  Go to your Documents directory (or any other directory)\n# Let\u0026#39;s go to your Documents folder cd $HOME/Documents   Clone the directory : Keep in mind that you don\u0026rsquo;t have to clone it into Documents, but you can choose any other directory.\ngit clone https://github.com/vcalderon2009/2020_06_CA_Astro_Data_Science_Workshop.git   Go into the directory\ncd ./2020_06_CA_Astro_Data_Science_Workshop   Checkout the master branch\ngit checkout master     Create a new Python environment\n  The next step is to create a new Python environment for the project\nmake create_environment This will create the necessary Python environment for the project. If you have Anaconda installed on your computer, this command will create a new Python environment with the name 2020_06_CA_Astro_Data_Science_Workshop.\n  If using Anaconda, you will have to activate the environment:\nconda activate 2020_06_CA_Astro_Data_Science_Workshop or if you\u0026rsquo;re using venv, you can activate it as:\nworkon 2020_06_CA_Astro_Data_Science_Workshop assuming you have it properly installed.\n  Install the necessary packages\nNow that the Python environment exists, you will need to install the packages into the environment:\nmake requirements     Accessing the notebooks\n  You can finally access the notebooks of the project by:\n# Going into the `notebooks` directory cd notebooks # Start jupyter lab jupyter lab      You can now look through the different notebooks and play around with them!\n "
 },
 {
-	"uri": "https://vcalderon2009.github.io/2020_06_CA_Astro_Data_Science_Workshop/notebooks/",
+	"uri": "http://example.org/notebooks/",
 	"title": "Notebooks",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://vcalderon2009.github.io/2020_06_CA_Astro_Data_Science_Workshop/links_resources/",
+	"uri": "http://example.org/links_resources/",
 	"title": "Links and Resources",
 	"tags": [],
 	"description": "",
 	"content": "The following are a set of useful links and resources that may come handy when dealing with data and trying to build ML models.\nPython packages ML-related Other useful resources   Vandy - Useful links and resources : Compilation of multiple sources and links that include:\n Reading papers Giving presentations Paper Management Collaborations Conferences General Learning Python- and Anaconda-related Code Editors Version Control SSH Keys LaTeX Data Science Machine Learning Papers Books Applying to Jobs and more and more \u0026hellip;    "
 },
 {
-	"uri": "https://vcalderon2009.github.io/2020_06_CA_Astro_Data_Science_Workshop/",
+	"uri": "http://example.org/",
 	"title": "CA Astro - Data Science and Machine Learning Workshop",
 	"tags": [],
 	"description": "",
 	"content": "CA Astro - Data Science and ML Workshop This set of tutorials can be best explained as:\nTutorials and notebooks dedicated towards teaching about Data Science and Machine Learning  Main Details          Author Victor Calderon - http://vcalderon.me   Dates 13th and 14th of June, 2020   Github Repo https://github.com/vcalderon2009/2020_06_CA_Astro_Data_Science_Workshop/   Documentation https://vcalderon2009.github.io/2020_06_CA_Astro_Data_Science_Workshop/    https://colab.research.google.com/github/vcalderon2009/2020_06_CA_Astro_Data_Science_Workshop/    Description The following set of tutorials form part of the Tutorials Series hosted by \u0026ldquo;Central American - Caribbean Bridge in Astrophysics Program\u0026rdquo;.\nIn these tutorials, we will cover how to:\n Extract datasets Perform exploratory data analysis (EDA) of the datasets. This includes  Extract summary statistics about the dataset Clean the datasets Transform columns to useful features   Define and train a machine learning (ML) model using out-of-the-box utilities from Python packages. Determine the performance of the ML model  We will also discuss some common practices when dealing with ML models, as EDA best practices.\n"
 },
 {
-	"uri": "https://vcalderon2009.github.io/2020_06_CA_Astro_Data_Science_Workshop/categories/",
+	"uri": "http://example.org/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://vcalderon2009.github.io/2020_06_CA_Astro_Data_Science_Workshop/tags/",
+	"uri": "http://example.org/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",

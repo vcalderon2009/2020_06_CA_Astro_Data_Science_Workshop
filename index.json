@@ -1,20 +1,20 @@
 [
 {
-	"uri": "http://example.org/categories/",
+	"uri": "https://vcalderon2009.github.io/2020_06_CA_Astro_Data_Science_Workshop/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/",
+	"uri": "https://vcalderon2009.github.io/2020_06_CA_Astro_Data_Science_Workshop/",
 	"title": "My New Hugo Site",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://example.org/tags/",
+	"uri": "https://vcalderon2009.github.io/2020_06_CA_Astro_Data_Science_Workshop/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",

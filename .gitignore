@@ -1,1 +1,4 @@
 public
+.env
+data
+*egg-info

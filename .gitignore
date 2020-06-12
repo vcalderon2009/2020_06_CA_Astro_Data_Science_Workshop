@@ -2,3 +2,4 @@ public
 .env
 data
 *egg-info
+.DS_Store

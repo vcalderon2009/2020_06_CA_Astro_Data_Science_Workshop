@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CA Astro - Data Science and Machine Learning Workshop</title>
-    <link>http://example.org/</link>
+    <link>https://vcalderon2009.github.io/2020_06_CA_Astro_Data_Science_Workshop/</link>
     <description>Recent content on CA Astro - Data Science and Machine Learning Workshop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Jun 2020 02:55:22 -0500</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vcalderon2009.github.io/2020_06_CA_Astro_Data_Science_Workshop/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

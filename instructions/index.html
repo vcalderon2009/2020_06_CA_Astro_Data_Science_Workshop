@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/2020_06_CA_Astro_Data_Science_Workshop/images/favicon.png" type="image/png">
 
-    <title>Categories :: CA Astro - Data Science and Machine Learning Workshop</title>
+    <title>Instructions :: CA Astro - Data Science and Machine Learning Workshop</title>
 
     
     <link href="/2020_06_CA_Astro_Data_Science_Workshop/css/nucleus.css?1591956010" rel="stylesheet">
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/2020_06_CA_Astro_Data_Science_Workshop/categories/">
+  <body class="" data-url="/2020_06_CA_Astro_Data_Science_Workshop/instructions/">
     <nav id="sidebar" class="">
 
 
@@ -133,8 +133,8 @@ fill="#000000" stroke="none">
   
     
     <li data-nav-id="/2020_06_CA_Astro_Data_Science_Workshop/instructions/" title="Instructions" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/2020_06_CA_Astro_Data_Science_Workshop/instructions/">
@@ -252,14 +252,23 @@ fill="#000000" stroke="none">
                   <span class="links">
                  
                  
-                   Categories
+                   Instructions
                  
                   </span>
                 </div>
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#using-googles-colab">Using Google&rsquo;s Colab</a></li>
+        <li><a href="#getting-the-repository-onto-your-computer">Getting the repository onto your computer</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -275,7 +284,7 @@ fill="#000000" stroke="none">
           
             <h1>
               
-              Categories
+              Instructions
             </h1>
           
 
@@ -283,11 +292,95 @@ fill="#000000" stroke="none">
 
 
 
-
-
+	<p>This set of tutorials are written in <a href="https://www.python.org/">Python</a>
+and they act as <em>stand-alone</em> notebooks. There are 2 ways of accessing them.</p>
+<h3 id="using-googles-colab">Using Google&rsquo;s Colab</h3>
+<p>The ideal method of accessing these notebooks and resources is through
+<a href="https://colab.research.google.com/">Google Colab</a>. Each notebook will have
+a <em>badge</em> like this:</p>
+<p><a href="https://colab.research.google.com/github/vcalderon2009/2020_06_CA_Astro_Data_Science_Workshop/"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
+<p>Just press on it and it will redirect you to the website dedicated to hosting
+these notebooks.</p>
+<h3 id="getting-the-repository-onto-your-computer">Getting the repository onto your computer</h3>
+<p>The first method of accessing the set of notebooks and resources is by
+<em>cloning</em> the whole repository into your computer. In that way, you will
+be able to :</p>
 <ul>
-	
+<li>Install the necessary Python packages</li>
+<li>Run each notebook on its own and check the results yourself.</li>
 </ul>
+<p>For this to work, you will first need to:</p>
+<ol>
+<li>
+<p><em><strong>Clone your repository to specified directory</strong></em></p>
+<ul>
+<li>
+<p>Go to your <code>Documents</code> directory (or any other directory)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Let&#39;s go to your Documents folder</span>
+cd $HOME/Documents
+</code></pre></div></li>
+<li>
+<p>Clone the directory : Keep in mind that you <strong>don&rsquo;t</strong> have to clone it
+into <code>Documents</code>, but you can choose <em>any</em> other directory.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/vcalderon2009/2020_06_CA_Astro_Data_Science_Workshop.git
+</code></pre></div></li>
+<li>
+<p>Go into the directory</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd ./2020_06_CA_Astro_Data_Science_Workshop
+</code></pre></div></li>
+<li>
+<p>Checkout the <code>master</code> branch</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git checkout master
+</code></pre></div></li>
+</ul>
+</li>
+<li>
+<p><strong>Create a new Python environment</strong></p>
+<ul>
+<li>
+<p>The next step is to create a new Python environment for the project</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">make create_environment
+</code></pre></div><p>This will create the necessary Python environment for the project.
+If you have <a href="https://www.anaconda.com/">Anaconda</a> installed on your
+computer, this command will create a new Python environment with
+the name <code>2020_06_CA_Astro_Data_Science_Workshop</code>.</p>
+</li>
+<li>
+<p>If using <em>Anaconda</em>, you will have to activate the environment:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">conda activate 2020_06_CA_Astro_Data_Science_Workshop
+</code></pre></div><p>or if you&rsquo;re using <a href="https://docs.python.org/3/library/venv.html">venv</a>,
+you can activate it as:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">workon 2020_06_CA_Astro_Data_Science_Workshop
+</code></pre></div><p>assuming you have it properly installed.</p>
+</li>
+<li>
+<p>Install the necessary packages</p>
+<p>Now that the Python environment exists, you will need to
+<strong>install the packages</strong> into the environment:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">make requirements
+</code></pre></div></li>
+</ul>
+</li>
+<li>
+<p><strong>Accessing the notebooks</strong></p>
+<ul>
+<li>
+<p>You can finally access the notebooks of the project by:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Going into the `notebooks` directory</span>
+cd notebooks
+
+<span style="color:#75715e"># Start jupyter lab</span>
+jupyter lab
+</code></pre></div></li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>You can now look through the different notebooks and play around with them!</p>
+</blockquote>
+
+
+
 
 
 <footer class=" footline" >
@@ -325,8 +418,6 @@ fill="#000000" stroke="none">
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -343,6 +434,9 @@ fill="#000000" stroke="none">
             
             
                 
+                    
+                        
+                        
                     
                 
                 

@@ -13,11 +13,15 @@ and they act as *stand-alone* notebooks. There are 2 ways of accessing them.
 ### Using Google's Colab
 
 The ideal method of accessing these notebooks and resources is through
-[Google Colab](https://colab.research.google.com/). Each notebook will have
-a *badge* like this:
+[My Binder](https://mybinder.org/) or 
+[Google Colab](https://colab.research.google.com/).
+
+You can simply click on the *badge* for opening it on **MyBinder** or
+**Google Colab**:
+
+[![Binder](https://mybinder.org/badge_logo.svg)]({{%siteparam "mybinder_repo_url"%}})
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]({{%siteparam "google_colab_repo_url"%}})
-
 
 Just press on it and it will redirect you to the website dedicated to hosting
 these notebooks.

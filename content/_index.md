@@ -19,7 +19,9 @@ This set of tutorials can be best explained as:
 | **Dates**     | 13th and 14th of June, 2020                       |
 | **Github Repo** | {{%siteparam "github_repo_url"%}} |
 | **Documentation** | {{%siteparam "docs_url"%}} |
-| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]({{%siteparam "google_colab_repo_url"%}}) | {{%siteparam "google_colab_repo_url"%}}
+| [![Binder](https://mybinder.org/badge_logo.svg)]({{%siteparam "mybinder_repo_url"%}}) | {{%siteparam "mybinder_repo_url"%}} |
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]({{%siteparam "google_colab_repo_url"%}}) | {{%siteparam "google_colab_repo_url"%}} |
+
 
 ## Description
 

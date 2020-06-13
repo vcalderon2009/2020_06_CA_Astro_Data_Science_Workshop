@@ -13,3 +13,4 @@ matplotlib
 seaborn
 jupyterlab
 ipython
+nb-black

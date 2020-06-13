@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vcalderon2009/2020_06_CA_Astro_Data_Science_Workshop/master)
+
 CA Astro - Data Science and Machine Learning Workshop
 ==============================
 

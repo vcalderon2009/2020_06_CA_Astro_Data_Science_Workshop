@@ -89,3 +89,4 @@ target/
 .mypy_cache/
 public
 themes
+eda.ipynb

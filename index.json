@@ -11,7 +11,7 @@
 	"title": "Notebooks",
 	"tags": [],
 	"description": "",
-	"content": "The following is the set of notebooks dedicated to this workshop:\n    Name Description Link     1 Introduction Intro the course Link   2 Pandas Review Review of Pandas and other functions Link   3 Exploratory Data Analysis How to dissect a dataset and more Link   4 Intro to Machine Learning Intro ML concepts and algorithms Link    Set set of notebooks can be accessed through here: \n"
+	"content": "The following is the set of notebooks dedicated to this workshop:\n    Name Description Link     1 Introduction Intro the course Link   2 Pandas Review Review of Pandas and other functions Link   3 Exploratory Data Analysis How to dissect a dataset and more Link   4 Intro to Machine Learning Intro ML concepts and algorithms Link   5 Supervised Learning ML Project Example Link    Set set of notebooks can be accessed through here: \n"
 },
 {
 	"uri": "https://vcalderon2009.github.io/2020_06_CA_Astro_Data_Science_Workshop/links_resources/",
